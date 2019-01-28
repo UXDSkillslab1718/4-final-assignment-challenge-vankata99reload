@@ -20,7 +20,9 @@ font-family: 'Lato', sans-serif;
 margin: 0;
 }
 
-
+main{
+  background-color: #0284A8;
+}
 
 .background{
 background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
@@ -83,16 +85,31 @@ h4~p{
   min-height: 175px;
 }
 
+.info-wrapper {
+  background: #02547D;
+  border-radius: 8px;
+  margin: 8px 15px;
+  padding: 1px 11px;
+}
+
+.logo-wrapper {
+
+  background: #02547D;
+  border-radius: 8px;
+  margin: 0 15px;
+  padding: 11px;
+}
+
 #jungle{
   background: url(../images/rainforest.jpg);
 background-size: cover;
 padding: 150px;
 padding-bottom:150px;
 }
+
 header, footer{
-  background: #A9E8DC;
-  color: #02547D;
-  border-style: dotted;
+  background-color: #0284A8;
+  color: white;
   padding:10px;
   margin: 20px;
   line-height: 20px;
@@ -109,6 +126,7 @@ header, footer{
   padding:10px;
   display: inline-block;
    color: #02547D;
+   text-align: center;
 }
 
    a:hover {
@@ -121,8 +139,8 @@ header, footer{
 }
 
 .button {
-  background: #0009;
-  color: #fff;
+  background: #02BEC4;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-size: 20px;
@@ -143,7 +161,7 @@ header, footer{
 }
 
 .button:hover {
-  background: #41c4ab;
+  background: #02547D;
   color: #FFFFFF;
 }
 
@@ -161,7 +179,8 @@ header, footer{
        a:hover{
          text-decoration: none;color: #02547D;
        }
-.Education{
+
+  .Education{
 
   background: linear-gradient(rgba(2, 84, 125, 0.8), rgba(2, 84, 125, 0.5)),
               url(../images/hhs.jpg) no-repeat fixed;
