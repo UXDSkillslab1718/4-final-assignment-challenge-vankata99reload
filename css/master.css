@@ -18,6 +18,7 @@ body {
 font-family: 'Lato', sans-serif;
 
 margin: 0;
+color: white;
 }
 
 main{
@@ -37,6 +38,54 @@ no-repeat fixed;
   overflow: hidden;
 }
 
+nav {
+  text-align: center;
+  background: white;
+  position: sticky;
+  top: 100;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.img{
+    width:100%;
+    float:left;
+  }
+  .btn{
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  margin-left:190px;
+  margin-top:10px;
+  }
+  .dc {
+    background: linear-gradient(rgba(90, 90, 90, 0.8), rgba(100, 100, 100, 0.5)),
+                url(../images/dc.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 200px;
+     padding-bottom:250px;
+  }
+   .rd2 {
+    background: linear-gradient(rgba(90, 90, 90, 0.8), rgba(100, 100, 100, 0.5)),
+                url(../images/rd2.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 250px;
+  }
+   .bespoke {
+    background: linear-gradient(rgba(90, 90, 90, 0.8), rgba(100, 100, 100, 0.5)),
+                url(../images/bespoke.jpg/) no-repeat fixed;
+    background-size: cover;
+    padding: 200px;
+    padding-bottom:250px;
+  }
 
 
 h1, h2{
@@ -67,9 +116,20 @@ h4+p{
 h4~p{
   font-style: oblique;
 }
+.download {
+	position:fixed;
+	bottom: 0;
+	right: 0;
+  text:#0284A8;
+  color: #0284A8;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+}
 
 .Interests, .Certification, .Work, .Education{
-  background: #E1F7E7;
+  background: #0284A8;
   padding: 10px;
 }
 
@@ -86,7 +146,7 @@ h4~p{
 }
 
 .info-wrapper {
-  background: #02547D;
+  background: white;
   border-radius: 8px;
   margin: 8px 15px;
   padding: 1px 11px;
@@ -94,7 +154,7 @@ h4~p{
 
 .logo-wrapper {
 
-  background: #02547D;
+  background: white;
   border-radius: 8px;
   margin: 0 15px;
   padding: 11px;
@@ -108,7 +168,7 @@ padding-bottom:150px;
 }
 
 header, footer{
-  background-color: #0284A8;
+  background-color: #02BEC4;
   color: white;
   padding:10px;
   margin: 20px;
@@ -187,5 +247,4 @@ header, footer{
   background-size: cover;
   padding: 150px;
    padding-bottom:150px;
-
 }
