@@ -170,7 +170,7 @@ h4~p{
 
 #jungle{
   background: url(../images/rainforest.jpg);
-background-size: contain;
+background-size:  cover;
 padding: 150px;
 padding-bottom:150px;
 bottom: 100;
