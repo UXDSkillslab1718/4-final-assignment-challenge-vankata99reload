@@ -157,10 +157,13 @@ h4~p{
   margin: 0 15px;
   padding: 5px;
 }
+.content-wrap{
+
+}
 
 #jungle{
   background: url(../images/rainforest.jpg);
-background-size: cover;
+background-size: contain;
 padding: 150px;
 padding-bottom:150px;
 }
