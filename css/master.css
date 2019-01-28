@@ -25,12 +25,7 @@ main{
   background-color: #0284A8;
 }
 
-.background{
-background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
-url(/images/digital.png),
-no-repeat fixed;
-	background-size: cover;
-}
+
 .wrap{
   max-width: 950px;
   margin: 0 auto;
@@ -262,6 +257,14 @@ header, footer{
          text-decoration: none;color: #02547D;
        }
 
+.Certification{
+
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+  url(../images/softuni.jpg),
+  no-repeat fixed;
+  	background-size: cover;
+
+}
   .Education{
 
   background: linear-gradient(rgba(2, 84, 125, 0.8), rgba(2, 84, 125, 0.5)),
