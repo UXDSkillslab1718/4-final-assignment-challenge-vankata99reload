@@ -175,6 +175,19 @@ header, footer{
   margin: 0;
   }
 
+  .internal-links {
+	text-align: left;
+	word-spacing: 10px;
+}
+
+.internal-links a {
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 0.5em;
+	background-color: #02547D;
+	color: white;
+}
+
   .profile-img{
   border-radius: 50%;
   }
