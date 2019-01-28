@@ -51,6 +51,11 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+  hover: true;
+}
+nav a:hover {
+  background: #41c4ab;
+  color: white;
 }
 
 .img{
@@ -166,6 +171,7 @@ h4~p{
 background-size: contain;
 padding: 150px;
 padding-bottom:150px;
+bottom: 100;
 }
 
 header, footer{
