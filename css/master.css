@@ -57,7 +57,9 @@ nav a:hover {
   background: #41c4ab;
   color: white;
 }
-
+nav a:active {
+  background-color: #41c4ab;
+}
 .img{
     width:100%;
     float:left;
